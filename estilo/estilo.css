@@ -3,20 +3,21 @@
     padding: 0;
 }
 body{
-    background: white;
+    background: linear-gradient(to bottom, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 27%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
     font-family: sans-serif;
 }
 
-.contenedor{
-    max-width: 1280px;
-    width: 95%;
-    margin: auto;
+    .contenedor{
+        max-width: 1280px;
+        width: 95%;
+        margin: auto;
 }
 .menu{
     width: 100%;
     height:40px;
-    background: rosybrown;
+    background: black;
     text-align: left;
+    
 }
 .nombrebanner{
     color: white;
@@ -35,6 +36,7 @@ ol{
     list-style: none;
     padding: 0; 
     background:black;
+    box-shadow: 0px 5px 10px 0px rgba(255,255,255,1);
 }
 li{
     width: 50%;
@@ -52,57 +54,78 @@ li{
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
-    
+    box-shadow: 0px 5px 10px 0px rgba(255,255,255,1);
+    border-bottom: black;
 }
 .video{
     width: 100%;
     height:915px;
-    background: rgba(255, 255, 255, 0.8);
-    box-shadow: 0 3 6 rgba(0, 0, 0, .15);
-    border:2px solid black;
+    box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.75);
+    margin-top: 10px;
+    border-radius: 5px;
 }
+
 .historia{
     width: 100%;
     height:915px ;
-    background: rgba(255, 255, 255, 0.8);
-    border:2px solid black;
+    background: black;
+    box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.75);
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.historia h1{
+    color: white;
 }
 .eleccion{
     width: 100%;
     height:950px;
     background: rgba(255, 255, 255, 0.8);
-    box-shadow: 0 3 6 rgba(0, 0, 0, .15);
-    border:2px solid black;
+    box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.75);
+    border-radius: 5px;
 }
 .nosotros{
     width: 100%;
     height:1168px ;
-    background: rgba(255, 255, 255, 0.8);
-    border:2px solid black;
+    background: white;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.75);
 }
 .contacto{
     width: 100%;
     height:950px ;
     background: rgba(255, 255, 255, 0.8);
-    border:2px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.75);
 }
 .testimonios{
     width:100% ;
     height:860px ;
     background: rgba(255, 255, 255, 0.8);
-    border:2px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.75);
 }
 .publicidad2{
     width: 100%;
     height:250px;
     background: rgba(255, 255, 255, 0.8);
-    border:2px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.75);
 }
 .footer{
     width: 100%;
     height:400px;
-    background: rgba(255, 255, 255, 0.8);
-    border:2px solid black;
+    background: black;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.75);
+}
+.footer h1{
+    color: white;
+    text-align: center;
 }
 div{
     display: block;
@@ -138,3 +161,30 @@ h1{
 .my-what{
 	margin-top:16px;
 }
+.direcciones{
+    color: white;
+    width: 47%;
+    display: flex;
+    flex-wrap:wrap ;
+    margin: 40px;
+    border-right: solid white;
+}
+.direcciones p {
+    width: 100%;
+    display: flex;
+    margin: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-shadow: whitesmoke;
+}
+.copy{
+    padding-top: 15px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
