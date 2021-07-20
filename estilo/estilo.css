@@ -3,10 +3,14 @@
     padding: 0;
 }
 body{
-    width: 1280px;
-    background: black;
-    position: relative;
-    align-content: center;
+    background: white;
+    font-family: sans-serif;
+}
+
+.contenedor{
+    max-width: 1280px;
+    width: 95%;
+    margin: auto;
 }
 .menu{
     width: 100%;
