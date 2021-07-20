@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1280px;
+    background: black;
+    position: relative;
+    align-content: center;
+}
+.menu{
+    width: 100%;
+    height:40px;
+    background: rosybrown;
+    text-align: left;
+}
+.nombrebanner{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    display: inline-flex;
+    float: left;
+    
+}
+ol{
+    height: 38px;
+    margin: 0;
+    display:flex;
+    list-style: none;
+    padding: 0; 
+    background:black;
+}
+li{
+    width: 50%;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 10px;
+    float: right;
+}
+.banner{
+    width: 100%;
+    height: 650px;
+    background:url(../estilo/img/banner.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    
+}
+.video{
+    width: 100%;
+    height:915px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 3 6 rgba(0, 0, 0, .15);
+    border:2px solid black;
+}
+.historia{
+    width: 100%;
+    height:915px ;
+    background: rgba(255, 255, 255, 0.8);
+    border:2px solid black;
+}
+.eleccion{
+    width: 100%;
+    height:950px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 3 6 rgba(0, 0, 0, .15);
+    border:2px solid black;
+}
+.nosotros{
+    width: 100%;
+    height:1168px ;
+    background: rgba(255, 255, 255, 0.8);
+    border:2px solid black;
+}
+.contacto{
+    width: 100%;
+    height:950px ;
+    background: rgba(255, 255, 255, 0.8);
+    border:2px solid black;
+}
+.testimonios{
+    width:100% ;
+    height:860px ;
+    background: rgba(255, 255, 255, 0.8);
+    border:2px solid black;
+}
+.publicidad2{
+    width: 100%;
+    height:250px;
+    background: rgba(255, 255, 255, 0.8);
+    border:2px solid black;
+}
+.footer{
+    width: 100%;
+    height:400px;
+    background: rgba(255, 255, 255, 0.8);
+    border:2px solid black;
+}
+div{
+    display: block;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    color: rgba(46, 20, 20, 0.75);
+}
+h1{
+    margin: 10px;
+}
