@@ -254,6 +254,9 @@ li a:hover{
     background-color: #25d366;
     color: #FFF;
     cursor: pointer;
+    border-radius: 100px;
+    width: 50%;
+    margin-left: 25%;
 }
 
 .textocontacto{
