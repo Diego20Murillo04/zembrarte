@@ -160,7 +160,7 @@ li a:hover{
 }
 .contacto{
     width: 100%;
-    height:750px ;
+    height:760px ;
     display: block;
     position: relative;
     text-align: center;
@@ -175,6 +175,7 @@ li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
     background: rgb(255, 255, 255);
     
 }
@@ -184,7 +185,7 @@ li a:hover{
     display: inline-flex;
     justify-content: space-evenly;
     align-items: center;
-    background: rgb(166, 237, 100);
+    background: rgb(255, 255, 255);
 }
 .imagen{
     width: 45%;
@@ -193,6 +194,7 @@ li a:hover{
     position: relative;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
     background: rgb(0, 0, 0);
 }
 .form{
@@ -200,39 +202,72 @@ li a:hover{
     height: 90%;
     display: inline-flex;
     position: relative;
-    background: darkgoldenrod;
+    background: rgb(255, 255, 255);
 }
 .textocontacto{
     width: 100%;
     height: 16%;
+    padding-bottom: 20px;
+    border-radius: 5px;
     display: inline-flex;
     position: relative;
     text-align: center;
-    background: rgb(92, 106, 236);
+    background: rgb(0, 0, 0);
 }
-
-
-
-
-
-
-
-
-
 
 
 
 .testimonios{
     width:100% ;
-    height:860px ;
+    height:750px;
     display: block;
     position: relative;
+    justify-content: center;
     text-align: center;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgb(255, 255, 255);
     border-radius: 5px;
     margin-top: 10px;
     box-shadow: 0px 2px 5px 0px rgba(255,255,255,1);
 }
+.testimonailtext{
+    width: 100%;
+    height: 6%;
+    background: rgb(0, 0, 0);
+}
+.testimonailtext h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonialbox{
+    width: 100%;
+    height: 94%;
+    display:flex;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    
+}
+.testimonialcard{
+    height: 80%;
+    width: 27%;
+    display: inline-flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.418);
+}
+
+
+
+
+
+
+
 .publicidad2{
     width: 100%;
     height:250px;
@@ -337,19 +372,19 @@ h1{
     height: 64px;
     width: 64px;
     border-radius: 50%;
-    background: url(../estilo/img/iconos/twitter.png);
+    background: url(../estilo/img/twitter.png);
 }
 .instagram{
     height: 64px;
     width: 64px;
     border-radius: 50%;
-    background: url(../estilo/img/iconos/instagram.png);
+    background: url(../estilo/img/instagram.png);
 }
 .facebook{
     height: 64px;
     width: 64px;
     border-radius: 50%;
-    background: url(../estilo/img/iconos/facebook.png);
+    background: url(../estilo/img/facebook.png);
 }
 
 .twitter:hover{
