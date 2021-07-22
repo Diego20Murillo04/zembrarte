@@ -7,6 +7,12 @@ body{
     background:black;
     font-family: 'Open Sans', sans-serif;
 }
+
+hr{
+    width: 90%;
+    margin-left: 5%;
+}
+
 .contenedor{
         max-width: 1280px;
         width: 95%;
@@ -213,35 +219,45 @@ li a:hover{
 
 .form .contacto{
     margin-top: 60px;
-    width: 50%;
+    width: 80%;
     height: 70%;
     position: relative;
     flex-wrap: wrap;
     align-content: center;
-    margin-left: 25%;
+    display: flex;
+    justify-content: center;
 }
 
 .contact{
     padding: 0.8rem;
     overflow: hidden;
     color: gray;
+    width: 100%;
+    padding-top: 10%;
 }
 
 .contact label, .contact input, .contact textarea{
     display: block;
-    width: 100%;
+    width: 75%;
     margin-bottom: 5px;
+    margin-left: 25%;
 }
 
 .contact label{
     font-weight: 700;
+    text-align: left;
 }
 
 .contact input:not([type='submit']), .contact textarea{
-    border: none;
-    border-bottom: 2px solid rgba(37, 211, 102);
+    border: 1px solid rgba(37, 211, 102);
     margin-bottom: 10px;
     outline: none;
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px rgba(54, 54, 54, 0.603) ;
+}   
+
+.contact input:not([type='submit']){
+    height: 25px;
 }
 
 .contact textarea{
@@ -255,19 +271,23 @@ li a:hover{
     color: #FFF;
     cursor: pointer;
     border-radius: 100px;
-    width: 50%;
-    margin-left: 25%;
+    width: 30%;
+    margin-top: 10px;
+    font-weight:700;
+    box-shadow: 2px 2px 2px 2px rgba(43, 42, 42, 0.658);
+}
+
+.contact input[type='submit']:active{
+    box-shadow: 1px 1px 1px 1px rgba(43, 42, 42, 0.658);
 }
 
 .textocontacto{
-    width: 100%;
+    width: 90%;
     height: 16%;
     padding-bottom: 20px;
-    border-radius: 5px;
     display: inline-flex;
     position: relative;
     text-align: center;
-    background: rgb(0, 0, 0);
 }
 
 .testimonios{
