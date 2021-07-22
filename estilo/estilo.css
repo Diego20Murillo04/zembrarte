@@ -4,83 +4,97 @@
     box-sizing: border-box;
 }
 body{
-    background: linear-gradient(to bottom, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 27%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
-    /*black;*/
-    font-family: sans-serif;
+    background: /*linear-gradient(to bottom, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 27%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);*/
+    black;
+    font-family: 'Open Sans', sans-serif;
 }
-
-    .contenedor{
+.contenedor{
         max-width: 1280px;
         width: 95%;
         margin: auto;
 }
-.menu{
+.nav{
     width: 100%;
     height:40px;
-    background: black;
-    text-align: left;
-    
-}
-.nombrebanner{
-    color: white;
-    font-size: 25px;
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
-    margin: 0;
     display: inline-flex;
-    float: left;
-    
-}
-ol{
-    height: 38px;
-    margin: 0;
-    display:flex;
-    list-style: none;
-    padding: 0; 
-    background:black;
+    justify-content:space-between;
+    align-items: center;
+    background:rgba(7, 26, 0, 0.637);
     box-shadow: 0px 5px 10px 0px rgba(255,255,255,1);
 }
-li{
-    width: 50%;
+
+.nombrebanner{
+    width: auto;
     color: white;
     font-size: 25px;
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    margin: 0;
     margin-left: 10px;
-    float: right;
+}
+ul{
+    display:inline-flex;
+    list-style: none;
+    text-align: right;
+}
+a{
+    font-weight: 200;
+    color: white;
+    font-size: 18px;
+    margin: 10px;
+    text-decoration: none;
 }
 .banner{
     width: 100%;
     height: 650px;
     background:url(../estilo/img/banner.png);
     background-repeat: no-repeat;
-    display: flex;
+    display: block;
     align-items: center;
     box-shadow: 0px 5px 10px 0px rgba(255,255,255,1);
     border-bottom: black;
+    border-radius: 0 0 5px 5px;
 }
 .video{
+    display: block;
+    position: relative;
+    text-align: center;
+    color: white;
     width: 100%;
-    height:915px;
+    height: 650px;
     box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.75);
     margin-top: 10px;
     border-radius: 5px;
+    box-shadow: 0px 2px 5px 0px rgba(255,255,255,1);
+
+}
+.videoyt{
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.txtvideo{
+    padding-top: 40px;
 }
 
 .historia{
     width: 100%;
     height:915px ;
-    background: black;
+    display: block;
+    position: relative;
+    text-align: center;
+    background: rgb(255, 255, 255);
     box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.75);
     margin-top: 10px;
     border-radius: 5px;
 }
 .historia h1{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .eleccion{
     width: 100%;
     height:950px;
+    display: block;
+    position: relative;
+    text-align: center;
     background: rgba(255, 255, 255, 0.8);
     box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.75);
     border-radius: 5px;
@@ -88,6 +102,9 @@ li{
 .nosotros{
     width: 100%;
     height:1168px ;
+    display: block;
+    position: relative;
+    text-align: center;
     background: white;
     margin-top: 10px;
     border-radius: 5px;
@@ -96,6 +113,9 @@ li{
 .contacto{
     width: 100%;
     height:950px ;
+    display: block;
+    position: relative;
+    text-align: center;
     background: rgba(255, 255, 255, 0.8);
     border-radius: 5px;
     margin-top: 10px;
@@ -104,6 +124,9 @@ li{
 .testimonios{
     width:100% ;
     height:860px ;
+    display: block;
+    position: relative;
+    text-align: center;
     background: rgba(255, 255, 255, 0.8);
     border-radius: 5px;
     margin-top: 10px;
@@ -112,6 +135,9 @@ li{
 .publicidad2{
     width: 100%;
     height:250px;
+    display: block;
+    position: relative;
+    text-align: center;
     background: rgba(255, 255, 255, 0.8);
     border-radius: 5px;
     margin-top: 10px;
@@ -129,14 +155,7 @@ li{
     color: white;
     text-align: center;
 }
-div{
-    display: block;
-    position: relative;
-    text-align: center;
-    align-items: center;
-    align-content: center;
-    color: rgba(46, 20, 20, 0.75);
-}
+
 h1{
     margin: 10px;
 }
@@ -146,7 +165,7 @@ h1{
 	height:60px;
 	bottom:40px;
 	right:40px;
-	background-color:#25d366;
+	background-color:rgba(37, 211, 102, 0.637);
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
@@ -188,29 +207,299 @@ h1{
     color: white;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.puntos{
-    width: 20px;
-    height: 20px;
+.puntos1{
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
-    background: black;
+    background: rgb(255, 255, 255);
+    opacity: .8;
+
+    position: absolute;
+    bottom: 0px;
+    left: 2%;
+
+    animation: puntos 10s linear infinite;
+    animation-delay: .3s;
+} 
+.puntos2{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: rgb(0, 0, 0);
+    left:3% ;
+
+    position: absolute;
+    bottom: 0px;
+
+    animation: luna 10s linear infinite;
+    animation-delay: .3s;
+} 
+.puntos3{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: rgb(213, 231, 213);
+    opacity: .3;
+
+    position: absolute;
+    bottom: 0;
+    left: 4%;
+
+    animation: puntos 9.5s linear infinite;
+    animation-delay: .1s;
+} 
+.puntos4{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    opacity: .3;
+
+    position: absolute;
+    bottom: 0;
+    left: 13%;
+
+    animation: puntos 9s linear infinite;
+    animation-delay: .1s;
+} 
+.puntos5{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: rgb(249, 250, 249);
+    opacity: .3;
+
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+
+    animation: puntos 9.5s linear infinite;
+    animation-delay: .5s;
+} 
+.puntos6{
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: rgb(249, 250, 249);
     opacity: .3;
 
     position: absolute;
     bottom: 0;
     left: 5%;
 
-    animation: puntos 3s linear infinite;
-}
+    animation: puntos 10s linear infinite;
+    animation-delay: 0s;
+} 
+.puntos7{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: rgb(249, 250, 249);
+    opacity: .3;
+
+    position: absolute;
+    bottom: 0;
+    left: 7%;
+
+    animation: puntos 10s linear infinite;
+    animation-delay: .0s;
+} 
+.puntos8{
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: rgb(249, 250, 249);
+    opacity: .3;
+
+    position: absolute;
+    bottom: 0;
+    left: 9%;
+
+    animation: puntos 9.5s linear infinite;
+    animation-delay: .6s;
+} 
+.puntos9{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: rgb(249, 250, 249);
+    opacity: .3;
+
+    position: absolute;
+    bottom: 0;
+    left: 11%;
+
+    animation: puntos 8.5s linear infinite;
+    animation-delay: .9s;
+} 
+.puntos10{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: rgb(249, 250, 249);
+    opacity: .3;
+
+    position: absolute;
+    bottom: 0;
+    left: 12%;
+
+    animation: puntos 12s linear infinite;
+    animation-delay: 1.8s;
+} 
+
+.puntos13{
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: rgb(213, 231, 213);
+    opacity: .3;
+
+    position: absolute;
+    bottom: 0;
+    left: 4%;
+
+    animation: puntos 9.5s linear infinite;
+    animation-delay: 2.2s;
+} 
+.puntos14{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    opacity: .3;
+
+    position: absolute;
+    bottom: 0;
+    left: 13%;
+
+    animation: puntos 11s linear infinite;
+    animation-delay: 2.3s;
+} 
+.puntos15{
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: rgb(249, 250, 249);
+    opacity: .3;
+
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+
+    animation: puntos 8s linear infinite;
+    animation-delay: 1.5s;
+} 
+.puntos16{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: rgb(249, 250, 249);
+    opacity: .3;
+
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+
+    animation: puntos 10s linear infinite;
+    animation-delay: 1.5s;
+} 
+.puntos17{
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: rgb(249, 250, 249);
+    opacity: .3;
+
+    position: absolute;
+    bottom: 0;
+    left: 7%;
+
+    animation: puntos 8s linear infinite;
+    animation-delay: 1.8s;
+} 
+.puntos18{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: rgb(249, 250, 249);
+    opacity: .3;
+
+    position: absolute;
+    bottom: 0;
+    left: 9%;
+
+    animation: puntos 8.5s linear infinite;
+    animation-delay: 2.6s;
+} 
+.puntos19{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgb(249, 250, 249);
+    opacity: .3;
+
+    position: absolute;
+    bottom: 0;
+    left: 11%;
+
+    animation: puntos 7.5s linear infinite;
+    animation-delay: 1.6s;
+} 
+.puntos20{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: rgb(249, 250, 249);
+    opacity: .3;
+
+    position: absolute;
+    bottom: 0;
+    left: 12%;
+
+    animation: puntos 9s linear infinite;
+    animation-delay: 1s;
+} 
+
 @keyframes puntos{
     0%{
         bottom: 0;
         opacity: 0;
     }
+    25%{
+        transform: translateX(40px);
+        opacity: .1;
+    }
     50%{
-        opacity: .4;
+        opacity: .2;
+    }
+    75%{
+        transform: translateX(20px);
+        opacity: .1;
     }
     100%{
         bottom: 100vh;
-        opacity: 0;
+        opacity: .0;
     }
 }
+@keyframes luna{
+    0%{
+        bottom: 0;
+        opacity: 1;
+    }
+    25%{
+        transform: translateX(40px);
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    75%{
+        transform: translateX(20px);
+        opacity: 1;
+    }
+    100%{
+        bottom: 100vh;
+        opacity: 1;
+    }
+}
+
