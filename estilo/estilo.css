@@ -221,49 +221,40 @@ li a:hover{
     margin-left: 25%;
 }
 
-.form .contacto .nombre{
+.contact{
+    padding: 0.8rem;
+    overflow: hidden;
+    color: gray;
+}
+
+.contact label, .contact input, .contact textarea{
+    display: block;
     width: 100%;
-    height: 10%;
+    margin-bottom: 5px;
+}
+
+.contact label{
+    font-weight: 700;
+}
+
+.contact input:not([type='submit']), .contact textarea{
+    border: none;
+    border-bottom: 2px solid rgba(37, 211, 102);
     margin-bottom: 10px;
-    padding-bottom: 20px;
-    font-size: 15px;
-    align-items: center;
-    text-align:center;
+    outline: none;
 }
 
-.form .contacto .correo{
-    width: 100%;
-    height: 10%;
-    margin-bottom: 10px;
-    padding-bottom: 20px;
-    font-size: 15px;
-    align-items: center;
-    text-align:center;
+.contact textarea{
+    min-height: 25px;
 }
 
-.form .contacto .telefono{
-    width: 100%;
-    height: 10%;
-    margin-bottom: 10px;
-    padding-bottom: 20px;
-    font-size: 15px;
-    align-items: center;
-    text-align:center;
+.contact input[type='submit']{
+    padding: 10px;
+    border: none;
+    background-color: #25d366;
+    color: #FFF;
+    cursor: pointer;
 }
-
-.form .contacto .mensaje{
-    width: 100%;
-    height: 10%;
-    margin-bottom: 10px;
-    padding-bottom: 20px;
-    font-size: 15px;
-    align-items: center;
-    text-align:center;
-}
-
-.form .contacto .boton{
-}
-
 
 .textocontacto{
     width: 100%;

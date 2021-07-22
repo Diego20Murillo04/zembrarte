@@ -52,34 +52,25 @@
         </div>
         <div class="contactobox">
             <div class="imagen"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.6556034649298!2d-75.60793128522776!3d6.176837128809785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e46823a87e060a9%3A0xd21418abead7042!2sCra.%2053a%2C%20Itag%C3%BCi%2C%20Antioquia!5e0!3m2!1ses!2sco!4v1626937370302!5m2!1ses!2sco" width="98%" height="98%" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
-            <div class="form">
-                <form class="contacto" action="index.php" method="POST">
-                    <div class="nombre">
-                        <label for="name">Nombre*</label>
-                        <input type="text" name="name" placeholder="Introduzca su nombre" required>
-                    </div>
-                    
-                    <div class="correo">
-                        <label for="email">Correo Electronico*</label>
-                    <input type="email" name="email" placeholder="Introduzca su correo electronico" required>
-                    </div>
+            <section class="form">
+                <div class="contacto">
+                    <form action="#" method="POST" class="contact">
+                        <label for="nombres">Nombres</label>
+                        <input type="text" name="nombres" id="nombres" required>
 
-                    <div class="telefono">
-                        <label for="phone">Teléfono*</label>
-                    <input type="tel" name="phone" placeholder="Introduzca su teléfono" required>
-                    </div>
-                    
-                    <div class="mensaje">
-                        <label for="message">Mensaje</label>
-                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Opcional" maxlength="500"></textarea>
-                    </div>
-                    
-                    <div class="boton">
-                        <button type="submit">Enviar</button>
-                    </div>
+                        <label for="correo">Correo</label>
+                        <input type="email" name="correo" id="correo" required>
 
-                </form>
-            </div>
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" name="telefono" id="telefono" required>
+
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="10" maxlength="500"></textarea>
+
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+            </section>
         </div>
         <div class="textocontacto"></div>
     </div> 
