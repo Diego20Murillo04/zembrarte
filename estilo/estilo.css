@@ -352,7 +352,7 @@ h1{
     transition: 0.5s;
 }
 .instagram:hover{
-    box-shadow: 2px 2px 58px 9px rgb(255, 85, 176);
+    box-shadow: 2px 2px 58px 9px rgba(255, 85, 176, 0.911);
     transition: 0.5s;
 }
 .facebook:hover{
