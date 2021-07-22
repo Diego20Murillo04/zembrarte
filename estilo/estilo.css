@@ -230,7 +230,8 @@ h1{
 .whatsapp:hover {
 	text-decoration: none;
 	color: #25d366;
-  background-color:#fff;
+    background-color:#fff;
+    transition: .3s;
 }
 
 .my-what{
