@@ -31,6 +31,9 @@ body{
     margin: 0;
     margin-left: 10px;
 }
+
+
+
 ul{
     display:inline-flex;
     list-style: none;
@@ -82,7 +85,7 @@ a{
     position: relative;
     text-align: center;
     background: rgb(255, 255, 255);
-    box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 5px 0px rgba(255,255,255,1);
     margin-top: 10px;
     border-radius: 5px;
 }
@@ -96,7 +99,7 @@ a{
     position: relative;
     text-align: center;
     background: rgba(255, 255, 255, 0.8);
-    box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 5px 0px rgba(255,255,255,1);
     border-radius: 5px;
 }
 .nosotros{
@@ -108,7 +111,7 @@ a{
     background: white;
     margin-top: 10px;
     border-radius: 5px;
-    box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 5px 0px rgba(255,255,255,1);
 }
 .contacto{
     width: 100%;
@@ -119,7 +122,7 @@ a{
     background: rgba(255, 255, 255, 0.8);
     border-radius: 5px;
     margin-top: 10px;
-    box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 5px 0px rgba(255,255,255,1);
 }
 .testimonios{
     width:100% ;
@@ -130,7 +133,7 @@ a{
     background: rgba(255, 255, 255, 0.8);
     border-radius: 5px;
     margin-top: 10px;
-    box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 5px 0px rgba(255,255,255,1);
 }
 .publicidad2{
     width: 100%;
@@ -141,7 +144,7 @@ a{
     background: rgba(255, 255, 255, 0.8);
     border-radius: 5px;
     margin-top: 10px;
-    box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 5px 0px rgba(255,255,255,1);
 }
 .footer{
     width: 100%;
@@ -149,7 +152,7 @@ a{
     background: black;
     border-radius: 5px;
     margin-top: 10px;
-    box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 5px 0px rgba(255,255,255,1);
 }
 .footer h1{
     color: white;
