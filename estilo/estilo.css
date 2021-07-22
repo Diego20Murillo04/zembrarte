@@ -204,6 +204,61 @@ li a:hover{
     position: relative;
     background: rgb(255, 255, 255);
 }
+
+.form .contacto{
+    margin-top: 60px;
+    width: 50%;
+    height: 70%;
+    position: relative;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-left: 25%;
+}
+
+.form .contacto .nombre{
+    width: 100%;
+    height: 10%;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    align-items: center;
+    text-align:center;
+}
+
+.form .contacto .correo{
+    width: 100%;
+    height: 10%;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    align-items: center;
+    text-align:center;
+}
+
+.form .contacto .telefono{
+    width: 100%;
+    height: 10%;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    align-items: center;
+    text-align:center;
+}
+
+.form .contacto .mensaje{
+    width: 100%;
+    height: 10%;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    align-items: center;
+    text-align:center;
+}
+
+.form .contacto .boton{
+}
+
+
 .textocontacto{
     width: 100%;
     height: 16%;
@@ -214,8 +269,6 @@ li a:hover{
     text-align: center;
     background: rgb(0, 0, 0);
 }
-
-
 
 .testimonios{
     width:100% ;
