@@ -321,7 +321,7 @@ li a:hover{
 
 .testimonialbox{
     width: 100%;
-    height: 94%;
+    height: 92%;
     display:flex;
     position: relative;
     justify-content: space-evenly;
@@ -331,7 +331,7 @@ li a:hover{
     
 }
 .testimonialcard{
-    height: 80%;
+    height: 100%;
     width: 27%;
     display: inline-flex;
     position: relative;
@@ -344,9 +344,9 @@ li a:hover{
 
 .testimonailtext{
     width: 100%;
-    height: 6%;
+    height: 8%;
     background: rgb(0, 0, 0);
-    margin: 10px;
+    margin-top: 5px;
 }
 .testimonailtext h1{
     display: flex;
@@ -379,11 +379,14 @@ li a:hover{
 .testcardup{
     width: 100%;
     height: 35%;
-    background: #25d366;
+    border-width: 2px;
+    border-radius: 5px 5px 0 0;
+    border-bottom: solid black;
     display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
+    background:url(../estilo/img/fondo\ testimonio.jpg);
 }
 
 .testcarddwn{
@@ -391,7 +394,13 @@ li a:hover{
     height: 65%;
     display: flex;
     position: relative;
-    background: violet;
+    justify-content: center;
+    background: white;
+}
+.boxcarddwn{
+    width: 90%;
+    height: auto;
+    margin: 20px;
 }
 .testcarddwn h1{
     text-align: center;
@@ -400,16 +409,12 @@ li a:hover{
     padding: 15px;
 }
 .testfoto{
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
-    background:black;
+    background:url(../estilo/img/viejo.jpg);
     background-repeat: no-repeat;
 }
-
-
-
-
 
 .publicidad2{
     width: 100%;
