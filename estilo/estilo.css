@@ -1,35 +1,50 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background:black;
+
+body {
+    background: black;
     font-family: 'Open Sans', sans-serif;
 }
 
-hr{
+hr {
     width: 90%;
     margin-left: 5%;
 }
 
-.contenedor{
-        max-width: 1280px;
-        width: 95%;
-        margin: auto;
-}
-.nav{
-    width: 100%;
-    height:40px;
-    display: inline-flex;
-    justify-content:space-between;
-    align-items: center;
-    border-radius: 5px;
-    background:rgba(7, 26, 0, 0.637);
-    box-shadow: 0px 5px 10px 0px rgba(255,255,255,1);
+/*--------------------*/
+/*-----ScrollBar------*/
+/*--------------------*/
+
+.contenedor::-webkit-scrollbar {
+    width: 7px;
 }
 
-.nombrebanner{
+.contenedor::-webkit-scrollbar-thumb {
+    background: whitesmoke;
+    border-radius: 10px;
+}
+
+.contenedor {
+    max-width: 1280px;
+    width: 95%;
+    margin: auto;
+}
+
+.nav {
+    width: 100%;
+    height: 40px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    background: rgba(7, 26, 0, 0.637);
+    box-shadow: 0px 5px 10px 0px rgba(255, 255, 255, 1);
+}
+
+.nombrebanner {
     width: auto;
     color: white;
     font-size: 25px;
@@ -38,28 +53,30 @@ hr{
     margin-left: 10px;
     text-decoration: none;
 }
-.nombrebanner:hover{
+
+.nombrebanner:hover {
     font-size: 30px;
-    color:rgba(37, 211, 102, 0.637);
+    color: rgba(37, 211, 102, 0.637);
     transition: .5s;
 }
-ul{
-    display:inline-flex;
+
+ul {
+    display: inline-flex;
     list-style: none;
     text-align: right;
 }
 
-li a{
+li a {
     padding: 10px 10px;
 }
 
-li a:hover{
+li a:hover {
     background-color: white;
     color: black;
     transition: .5s;
 }
 
-.navbtn{
+.navbtn {
     height: 40px;
     font-weight: 200;
     color: white;
@@ -67,51 +84,55 @@ li a:hover{
     margin: 10px;
     text-decoration: none;
 }
-.banner{
+
+.banner {
     width: 100%;
     height: 650px;
-    background:url(../estilo/img/banner.png);
+    background: url(../estilo/img/banner.png);
     background-repeat: no-repeat;
     display: block;
     align-items: center;
-    box-shadow: 0px 5px 10px 0px rgba(255,255,255,1);
+    box-shadow: 0px 5px 10px 0px rgba(255, 255, 255, 1);
     border-bottom: black;
     border-radius: 0 0 5px 5px;
 }
-.video{
+
+.video {
     display: block;
     position: relative;
     text-align: center;
     color: white;
     width: 100%;
     height: 650px;
-    box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 7px 0px rgba(0, 0, 0, 0.75);
     margin-top: 10px;
     border-radius: 5px;
-    box-shadow: 0px 2px 5px 0px rgba(255,255,255,1);
+    box-shadow: 0px 2px 5px 0px rgba(255, 255, 255, 1);
 
 }
-.videoyt{
+
+.videoyt {
     border-radius: 5px;
 }
-.txtvideo{
+
+.txtvideo {
     padding-top: 10px;
     height: 10%;
 }
 
-.historia{
+.historia {
     width: 100%;
     height: 650px;
     display: inline-flex;
     position: relative;
     background: rgb(255, 255, 255);
-    box-shadow: 0px 2px 5px 0px rgba(255,255,255,1);
+    box-shadow: 0px 2px 5px 0px rgba(255, 255, 255, 1);
     margin-top: 10px;
     border-radius: 5px;
     justify-content: space-between;
 }
 
-.sechistoria{ 
+.sechistoria {
     display: inline-flex;
     position: relative;
     width: 75%;
@@ -119,24 +140,27 @@ li a:hover{
     border-radius: 5px;
     background-color: brown;
 }
-.publicidad1{
+
+.publicidad1 {
     position: relative;
     width: 25%;
     height: 650px;
     border-radius: 5px;
     background: cyan;
 }
-.eleccion{
+
+.eleccion {
     width: 100%;
     height: 750px;
     display: flex;
     justify-content: center;
     align-items: center;
     background: rgb(255, 255, 255);
-    box-shadow: 0px 2px 5px 0px rgba(255,255,255,1);
+    box-shadow: 0px 2px 5px 0px rgba(255, 255, 255, 1);
     border-radius: 5px;
 }
-.contenedorelec{
+
+.contenedorelec {
     height: 100%;
     width: 80%;
     border-radius: 5px;
@@ -145,47 +169,51 @@ li a:hover{
     align-items: center;
     justify-content: center;
 }
-.contenedorcards{
+
+.contenedorcards {
     text-align: center;
     height: 80%;
     width: 100%;
     border-radius: 5px;
     background: royalblue;
     display: inline-flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: center;
 }
 
-.cards{
+.cards {
     height: 85%;
     width: 25%;
     margin: 20px;
     border-radius: 5px;
     background: coral;
 }
-.nosotros{
+
+.nosotros {
     width: 100%;
-    height:700px ;
+    height: 700px;
     display: block;
     position: relative;
     text-align: center;
     background: white;
     margin-top: 10px;
     border-radius: 5px;
-    box-shadow: 0px 2px 5px 0px rgba(255,255,255,1);
+    box-shadow: 0px 2px 5px 0px rgba(255, 255, 255, 1);
 }
-.contacto{
+
+.contacto {
     width: 100%;
-    height:760px ;
+    height: 760px;
     display: block;
     position: relative;
     text-align: center;
     background: white;
     border-radius: 5px;
     margin-top: 10px;
-    box-shadow: 0px 2px 5px 0px rgba(255,255,255,1);
+    box-shadow: 0px 2px 5px 0px rgba(255, 255, 255, 1);
 }
-.titulocontacto{
+
+.titulocontacto {
     width: 100%;
     height: 6%;
     display: flex;
@@ -193,9 +221,10 @@ li a:hover{
     align-items: center;
     border-radius: 5px;
     background: rgb(255, 255, 255);
-    
+
 }
-.contactobox{
+
+.contactobox {
     width: 100%;
     height: 80%;
     display: inline-flex;
@@ -203,7 +232,8 @@ li a:hover{
     align-items: center;
     background: rgb(255, 255, 255);
 }
-.imagen{
+
+.imagen {
     width: 45%;
     height: 90%;
     display: inline-flex;
@@ -213,7 +243,8 @@ li a:hover{
     border-radius: 5px;
     background: rgb(0, 0, 0);
 }
-.form{
+
+.form {
     width: 45%;
     height: 90%;
     display: inline-flex;
@@ -223,7 +254,7 @@ li a:hover{
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.418);
 }
 
-.form .contacto{
+.form .contacto {
     margin-top: 60px;
     width: 80%;
     height: 70%;
@@ -234,7 +265,7 @@ li a:hover{
     justify-content: center;
 }
 
-.contact{
+.contact {
     padding: 0.8rem;
     overflow: hidden;
     color: gray;
@@ -242,35 +273,38 @@ li a:hover{
     padding-top: 10%;
 }
 
-.contact label, .contact input, .contact textarea{
+.contact label,
+.contact input,
+.contact textarea {
     display: block;
     width: 75%;
     margin-bottom: 5px;
     margin-left: 25%;
 }
 
-.contact label{
+.contact label {
     font-weight: 700;
     text-align: left;
 }
 
-.contact input:not([type='submit']), .contact textarea{
+.contact input:not([type='submit']),
+.contact textarea {
     border: 1px solid rgba(37, 211, 102);
     margin-bottom: 10px;
     outline: none;
     border-radius: 5px;
-    box-shadow: 1px 2px 3px rgba(54, 54, 54, 0.603) ;
-}   
+    box-shadow: 1px 2px 3px rgba(54, 54, 54, 0.603);
+}
 
-.contact input:not([type='submit']){
+.contact input:not([type='submit']) {
     height: 25px;
 }
 
-.contact textarea{
+.contact textarea {
     min-height: 25px;
 }
 
-.contact input[type='submit']{
+.contact input[type='submit'] {
     padding: 10px;
     border: none;
     background-color: #25d366;
@@ -279,15 +313,15 @@ li a:hover{
     border-radius: 100px;
     width: 30%;
     margin-top: 10px;
-    font-weight:700;
+    font-weight: 700;
     box-shadow: 2px 2px 2px 2px rgba(43, 42, 42, 0.658);
 }
 
-.contact input[type='submit']:active{
+.contact input[type='submit']:active {
     box-shadow: 1px 1px 1px 1px rgba(43, 42, 42, 0.658);
 }
 
-.textocontacto{
+.textocontacto {
     width: 90%;
     height: 16%;
     padding-bottom: 20px;
@@ -296,9 +330,9 @@ li a:hover{
     text-align: center;
 }
 
-.testimonios{
-    width:100% ;
-    height:750px;
+.testimonios {
+    width: 100%;
+    height: 750px;
     display: block;
     position: relative;
     justify-content: center;
@@ -306,20 +340,22 @@ li a:hover{
     background: rgb(255, 255, 255);
     border-radius: 5px;
     margin-top: 10px;
-    box-shadow: 0px 2px 5px 0px rgba(255,255,255,1);
+    box-shadow: 0px 2px 5px 0px rgba(255, 255, 255, 1);
 }
-.testimonailtext{
+
+.testimonailtext {
     width: 100%;
     height: 6%;
     background: rgb(0, 0, 0);
 }
-.testimonailtext h1{
+
+.testimonailtext h1 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.testimonialbox{
+.testimonialbox {
     width: 100%;
     height: 92%;
     display:flex;
@@ -328,7 +364,7 @@ li a:hover{
     align-items: center;
     border-radius: 5px;
     background: rgb(255, 255, 255);
-    
+
 }
 .testimonialcard{
     height: 100%;
@@ -342,30 +378,32 @@ li a:hover{
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.418);
 }
 
-.testimonailtext{
+.testimonailtext {
     width: 100%;
     height: 8%;
     background: rgb(0, 0, 0);
     margin-top: 5px;
 }
-.testimonailtext h1{
+
+.testimonailtext h1 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.testimonialbox{
+.testimonialbox {
     width: 100%;
     height: 94%;
-    display:flex;
+    display: flex;
     position: relative;
     justify-content: space-evenly;
     align-items: center;
     border-radius: 5px;
     background: rgb(255, 255, 255);
-    
+
 }
-.testimonialcard{
+
+.testimonialcard {
     height: 80%;
     width: 27%;
     display: inline-block;
@@ -376,7 +414,8 @@ li a:hover{
     background: rgb(255, 255, 255);
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.418);
 }
-.testcardup{
+
+.testcardup {
     width: 100%;
     height: 35%;
     border-width: 2px;
@@ -389,7 +428,7 @@ li a:hover{
     background:url(../estilo/img/fondo\ testimonio.jpg);
 }
 
-.testcarddwn{
+.testcarddwn {
     width: 100%;
     height: 65%;
     display: flex;
@@ -402,7 +441,8 @@ li a:hover{
     height: auto;
     margin: 20px;
 }
-.testcarddwn h1{
+
+.testcarddwn h1 {
     text-align: center;
     font-size: 25px;
     margin: 15px;
@@ -418,16 +458,17 @@ li a:hover{
 
 .publicidad2{
     width: 100%;
-    height:250px;
+    height: 250px;
     display: block;
     position: relative;
     text-align: center;
     background: rgba(255, 255, 255, 0.8);
     border-radius: 5px;
     margin-top: 10px;
-    box-shadow: 0px 2px 5px 0px rgba(255,255,255,1);
+    box-shadow: 0px 2px 5px 0px rgba(255, 255, 255, 1);
 }
-.footer{
+
+.footer {
     width: 100%;
     height: auto;
     text-align: center;
@@ -435,10 +476,11 @@ li a:hover{
     border-radius: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
-    box-shadow: 0px 2px 5px 0px rgba(255,255,255,1);
-    
+    box-shadow: 0px 2px 5px 0px rgba(255, 255, 255, 1);
+
 }
-.boxfooter{
+
+.boxfooter {
     width: 100%;
     height: auto;
     text-align: center;
@@ -446,43 +488,47 @@ li a:hover{
     justify-content: space-between;
 }
 
-h1{
+h1 {
     margin: 10px;
 }
-.whatsapp{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color:rgba(37, 211, 102, 0.637);
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-  font-size:30px;
-	box-shadow: 2px 2px 3px #999;
-  z-index:100;
+
+.whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: rgba(37, 211, 102, 0.637);
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
 }
+
 .whatsapp:hover {
-	text-decoration: none;
-	color: #25d366;
-    background-color:#fff;
+    text-decoration: none;
+    color: #25d366;
+    background-color: #fff;
     transition: .3s;
 }
 
-.my-what{
-	margin-top:16px;
+.my-what {
+    margin-top: 16px;
 }
-.direcciones{
+
+.direcciones {
     margin-top: 60px;
     color: white;
     width: 50%;
     height: 70%;
     position: relative;
     display: flex;
-    flex-wrap:wrap ;
+    flex-wrap: wrap;
     border-right: solid white;
 }
+
 .direcciones p {
     width: 100%;
     height: 25%;
@@ -490,65 +536,70 @@ h1{
     padding-bottom: 20px;
     font-size: 12px;
     align-items: center;
-    text-align:center;
+    text-align: center;
     text-shadow: whitesmoke;
     text-transform: uppercase;
 }
+
 .redes {
-        width: 50%;
-        padding: 20px;
+    width: 50%;
+    padding: 20px;
 }
 
-.textoredes{
+.textoredes {
     width: 100%;
     height: 25%;
     margin-top: 40px;
     font-size: 12px;
     text-align: center;
     color: white;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.redesbox{
+.redesbox {
     width: 100%;
     text-align: center;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 }
 
-.twitter{
+.twitter {
     height: 64px;
     width: 64px;
     border-radius: 50%;
     background: url(../estilo/img/twitter.png);
 }
-.instagram{
+
+.instagram {
     height: 64px;
     width: 64px;
     border-radius: 50%;
     background: url(../estilo/img/instagram.png);
 }
-.facebook{
+
+.facebook {
     height: 64px;
     width: 64px;
     border-radius: 50%;
     background: url(../estilo/img/facebook.png);
 }
 
-.twitter:hover{
-    box-shadow: 2px 2px 58px 9px rgb(66, 111, 189);
-    transition: 0.5s;
-}
-.instagram:hover{
-    box-shadow: 2px 2px 58px 9px rgba(255, 85, 176, 0.6);
-    transition: 0.5s;
-}
-.facebook:hover{
+.twitter:hover {
     box-shadow: 2px 2px 58px 9px rgb(66, 111, 189);
     transition: 0.5s;
 }
 
-.copy{
+.instagram:hover {
+    box-shadow: 2px 2px 58px 9px rgba(255, 85, 176, 0.6);
+    transition: 0.5s;
+}
+
+.facebook:hover {
+    box-shadow: 2px 2px 58px 9px rgb(66, 111, 189);
+    transition: 0.5s;
+}
+
+.copy {
     width: 100%;
     height: 10%;
     margin-top: 20px;
@@ -556,8 +607,9 @@ h1{
     font-size: 12px;
     text-align: center;
     color: white;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 /*.puntos1{
     width: 50px;
     height: 50px;
@@ -586,7 +638,7 @@ h1{
     animation: luna 10s linear infinite;
     animation-delay: .3s;
 } */
-.puntos3{
+.puntos3 {
     width: 5px;
     height: 5px;
     border-radius: 50%;
@@ -599,8 +651,9 @@ h1{
 
     animation: puntos 9.5s linear infinite;
     animation-delay: .1s;
-} 
-.puntos4{
+}
+
+.puntos4 {
     width: 5px;
     height: 5px;
     border-radius: 50%;
@@ -613,8 +666,9 @@ h1{
 
     animation: puntos 9s linear infinite;
     animation-delay: .1s;
-} 
-.puntos5{
+}
+
+.puntos5 {
     width: 5px;
     height: 5px;
     border-radius: 50%;
@@ -627,8 +681,9 @@ h1{
 
     animation: puntos 9.5s linear infinite;
     animation-delay: .5s;
-} 
-.puntos6{
+}
+
+.puntos6 {
     width: 3px;
     height: 3px;
     border-radius: 50%;
@@ -641,8 +696,9 @@ h1{
 
     animation: puntos 10s linear infinite;
     animation-delay: 0s;
-} 
-.puntos7{
+}
+
+.puntos7 {
     width: 5px;
     height: 5px;
     border-radius: 50%;
@@ -655,8 +711,9 @@ h1{
 
     animation: puntos 10s linear infinite;
     animation-delay: .0s;
-} 
-.puntos8{
+}
+
+.puntos8 {
     width: 3px;
     height: 3px;
     border-radius: 50%;
@@ -669,8 +726,9 @@ h1{
 
     animation: puntos 9.5s linear infinite;
     animation-delay: .6s;
-} 
-.puntos9{
+}
+
+.puntos9 {
     width: 5px;
     height: 5px;
     border-radius: 50%;
@@ -683,8 +741,9 @@ h1{
 
     animation: puntos 8.5s linear infinite;
     animation-delay: .9s;
-} 
-.puntos10{
+}
+
+.puntos10 {
     width: 5px;
     height: 5px;
     border-radius: 50%;
@@ -697,9 +756,9 @@ h1{
 
     animation: puntos 12s linear infinite;
     animation-delay: 1.8s;
-} 
+}
 
-.puntos13{
+.puntos13 {
     width: 3px;
     height: 3px;
     border-radius: 50%;
@@ -712,8 +771,9 @@ h1{
 
     animation: puntos 9.5s linear infinite;
     animation-delay: 2.2s;
-} 
-.puntos14{
+}
+
+.puntos14 {
     width: 5px;
     height: 5px;
     border-radius: 50%;
@@ -726,8 +786,9 @@ h1{
 
     animation: puntos 11s linear infinite;
     animation-delay: 2.3s;
-} 
-.puntos15{
+}
+
+.puntos15 {
     width: 3px;
     height: 3px;
     border-radius: 50%;
@@ -740,8 +801,9 @@ h1{
 
     animation: puntos 8s linear infinite;
     animation-delay: 1.5s;
-} 
-.puntos16{
+}
+
+.puntos16 {
     width: 7px;
     height: 7px;
     border-radius: 50%;
@@ -754,8 +816,9 @@ h1{
 
     animation: puntos 10s linear infinite;
     animation-delay: 1.5s;
-} 
-.puntos17{
+}
+
+.puntos17 {
     width: 3px;
     height: 3px;
     border-radius: 50%;
@@ -768,8 +831,9 @@ h1{
 
     animation: puntos 8s linear infinite;
     animation-delay: 1.8s;
-} 
-.puntos18{
+}
+
+.puntos18 {
     width: 5px;
     height: 5px;
     border-radius: 50%;
@@ -782,8 +846,9 @@ h1{
 
     animation: puntos 8.5s linear infinite;
     animation-delay: 2.6s;
-} 
-.puntos19{
+}
+
+.puntos19 {
     width: 8px;
     height: 8px;
     border-radius: 50%;
@@ -796,8 +861,9 @@ h1{
 
     animation: puntos 7.5s linear infinite;
     animation-delay: 1.6s;
-} 
-.puntos20{
+}
+
+.puntos20 {
     width: 5px;
     height: 5px;
     border-radius: 50%;
@@ -810,48 +876,56 @@ h1{
 
     animation: puntos 9s linear infinite;
     animation-delay: 1s;
-} 
+}
 
-@keyframes puntos{
-    0%{
+@keyframes puntos {
+    0% {
         bottom: 0;
         opacity: .2;
     }
-    25%{
+
+    25% {
         transform: translateX(40px);
         opacity: .4;
     }
-    50%{
+
+    50% {
         opacity: .5;
     }
-    75%{
+
+    75% {
         transform: translateX(20px);
         opacity: .3;
     }
-    100%{
+
+    100% {
         bottom: 100vh;
         opacity: .0;
     }
 }
-@keyframes luna{
-    0%{
+
+@keyframes luna {
+    0% {
         bottom: 0;
         opacity: 1;
     }
-    25%{
+
+    25% {
         transform: translateX(40px);
         opacity: 1;
     }
-    50%{
+
+    50% {
         opacity: 1;
     }
-    75%{
+
+    75% {
         transform: translateX(20px);
         opacity: 1;
     }
-    100%{
+
+    100% {
         bottom: 100vh;
         opacity: 1;
     }
 }
-
