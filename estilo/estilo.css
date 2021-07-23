@@ -48,9 +48,15 @@ ul{
     list-style: none;
     text-align: right;
 }
+
+li a{
+    padding: 10px 10px;
+}
+
 li a:hover{
     background-color: white;
     color: black;
+    transition: .5s;
 }
 
 .navbtn{
