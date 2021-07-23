@@ -43,6 +43,7 @@ hr {
     background: rgba(7, 26, 0, 0.637);
     box-shadow: 0px 5px 10px 0px rgba(255, 255, 255, 1);
     position: fixed;
+    z-index: 100;
 }
 
 .nombrebanner {
