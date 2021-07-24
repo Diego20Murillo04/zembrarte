@@ -8,6 +8,10 @@ body {
     background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 51%, rgba(237,237,237,1) 100%);
     font-family: 'Open Sans', sans-serif;
 }
+h1{
+    color: rgb(31,122,49);
+
+}
 h3{
     font-size: 18px;
     text-align: center;
@@ -46,7 +50,7 @@ hr {
     align-items: center;
     border-radius: 5px 5px 0 0;
     background: rgb(15, 15, 15);
-    box-shadow: 0px 5px 10px 0px rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.418);
 }
 
 .nombrebanner {
@@ -61,7 +65,7 @@ hr {
 
 .nombrebanner:hover {
     font-size: 26px;
-    color: rgba(37, 211, 102, 0.637);
+    color: rgb(31,122,49);
     transition: .3s;
 }
 
@@ -99,7 +103,7 @@ li a:hover {
     background-repeat: no-repeat;
     display: block;
     align-items: center;
-    box-shadow: 0px 5px 10px 0px rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.418);
     border-bottom: black;
     border-radius: 0 0 5px 5px;
 }
@@ -111,7 +115,6 @@ li a:hover {
     color: white;
     width: 100%;
     height: 650px;
-    box-shadow: 5px 5px 7px 0px rgba(0, 0, 0, 0.75);
     margin-top: 10px;
     border-radius: 5px;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.418);
@@ -123,14 +126,14 @@ li a:hover {
 }
 
 .txtvideo {
-    color: black;
+    color: rgb(31,122,49);
     padding-top: 10px;
     height: 10%;
 }
 
 .historia {
     width: 100%;
-    height: 650px;
+    height: 850px;
     display: inline-flex;
     position: relative;
     background: rgb(255, 255, 255);
@@ -141,25 +144,54 @@ li a:hover {
 }
 
 .sechistoria {
-    display: inline-flex;
-    position: relative;
-    width: 75%;
-    height: 650px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    width: 65%;
+    height: 850px;
     border-radius: 5px;
-    background-color: brown;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.418);
+}
+.sechistoria h3{
+    margin-top: 60px;
+    padding-top: 20px;
+    margin-left: 60px;
+    margin-right: 80px;
+    text-align:justify;
+}
+.sechistoria h1{
+    text-align: center;
+    padding-top: 40px;
 }
 
 .publicidad1 {
     position: relative;
-    width: 25%;
-    height: 650px;
+    width: 34%;
+    height: 850px;
     border-radius: 5px;
-    background: cyan;
+    background-image: url(../estilo/img/Text-messages-[remix]A.gif);
+    background-repeat: no-repeat;
+    border:solid white;
+}
+.publicidad1 input[type='submit'] {
+    padding: 10px;
+    border: none;
+    background-color: rgb(31,122,49);
+    color: #FFF;
+    cursor: pointer;
+    border-radius: 100px;
+    width: 30%;
+    margin-top: 785px;
+    margin-left: 150px;
+    font-weight: 700;
+    
 }
 
 .eleccion {
     width: 100%;
     height: 750px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -227,12 +259,12 @@ li a:hover {
 .imgnost{
     height: 95%;
     width: 70%;
+    border-radius: 5px;
     background:url(../estilo/img/semilla.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
     background-repeat: no-repeat;
-    background-size: auto;
 
 }
 .textonosotros{
@@ -243,7 +275,6 @@ li a:hover {
     align-items: center;
     color: black;
     background: rgb(255, 255, 255);
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.418);
 }
 
 .contacto {
@@ -255,6 +286,7 @@ li a:hover {
     background: white;
     border-radius: 5px;
     margin-top: 10px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.418);
     
 }
 
@@ -506,14 +538,14 @@ li a:hover {
 
 .publicidad2 {
     width: 100%;
-    height: 250px;
+    height: 285px;
     display: block;
     position: relative;
     text-align: center;
-    background: rgba(255, 255, 255, 0.8);
+    background:url(../estilo/img/ardilla.jpg);
     border-radius: 5px;
     margin-top: 10px;
-    box-shadow: 0px 2px 5px 0px rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.418);
 }
 
 .footer {
@@ -534,10 +566,6 @@ li a:hover {
     text-align: center;
     display: flex;
     justify-content: space-between;
-}
-
-h1 {
-    margin: 10px;
 }
 
 .whatsapp {
@@ -685,7 +713,7 @@ h1 {
 
     animation: luna 10s linear infinite;
     animation-delay: .3s;
-} */
+} 
 .puntos3 {
     width: 5px;
     height: 5px;
@@ -976,4 +1004,4 @@ h1 {
         bottom: 100vh;
         opacity: 1;
     }
-}
+}*/
