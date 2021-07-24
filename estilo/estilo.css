@@ -5,7 +5,7 @@
 }
 
 body {
-    background: rgb(255, 255, 255);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 51%, rgba(237,237,237,1) 100%);
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -23,8 +23,8 @@ hr {
 }
 
 .contenedor::-webkit-scrollbar-thumb {
-    background: whitesmoke;
-    border-radius: 10px;
+    background: rgb(230, 231, 230);
+    border-radius: 5px;
 }
 
 .contenedor {
@@ -39,8 +39,8 @@ hr {
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
-    border-radius: 5px;
-    background: rgba(7, 26, 0, 0.637);
+    border-radius: 5px 5px 0 0;
+    background: rgb(15, 15, 15);
     box-shadow: 0px 5px 10px 0px rgba(255, 255, 255, 1);
 }
 
@@ -55,9 +55,9 @@ hr {
 }
 
 .nombrebanner:hover {
-    font-size: 30px;
+    font-size: 26px;
     color: rgba(37, 211, 102, 0.637);
-    transition: .5s;
+    transition: .3s;
 }
 
 ul {
@@ -68,6 +68,7 @@ ul {
 
 li a {
     padding: 10px 10px;
+    border-radius: 2px;
 }
 
 li a:hover {
@@ -89,6 +90,7 @@ li a:hover {
     width: 100%;
     height: 650px;
     background: url(../estilo/img/banner.png);
+    opacity: .99;
     background-repeat: no-repeat;
     display: block;
     align-items: center;
@@ -107,7 +109,7 @@ li a:hover {
     box-shadow: 5px 5px 7px 0px rgba(0, 0, 0, 0.75);
     margin-top: 10px;
     border-radius: 5px;
-    box-shadow: 0px 2px 5px 0px rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.418);
 
 }
 
@@ -116,6 +118,7 @@ li a:hover {
 }
 
 .txtvideo {
+    color: black;
     padding-top: 10px;
     height: 10%;
 }
@@ -126,7 +129,7 @@ li a:hover {
     display: inline-flex;
     position: relative;
     background: rgb(255, 255, 255);
-    box-shadow: 0px 2px 5px 0px rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.418);
     margin-top: 10px;
     border-radius: 5px;
     justify-content: space-between;
@@ -156,7 +159,7 @@ li a:hover {
     justify-content: center;
     align-items: center;
     background: rgb(255, 255, 255);
-    box-shadow: 0px 2px 5px 0px rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.418);
     border-radius: 5px;
 }
 
@@ -198,7 +201,7 @@ li a:hover {
     background: white;
     margin-top: 10px;
     border-radius: 5px;
-    box-shadow: 0px 2px 5px 0px rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.418);
 }
 
 .contacto {
@@ -210,7 +213,7 @@ li a:hover {
     background: white;
     border-radius: 5px;
     margin-top: 10px;
-    box-shadow: 0px 2px 5px 0px rgba(255, 255, 255, 1);
+    
 }
 
 .titulocontacto {
@@ -340,7 +343,7 @@ li a:hover {
     background: rgb(255, 255, 255);
     border-radius: 5px;
     margin-top: 10px;
-    box-shadow: 0px 2px 5px 0px rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.418);
 }
 
 .testimonailtext {
@@ -475,7 +478,7 @@ li a:hover {
     width: 100%;
     height: auto;
     text-align: center;
-    background: rgba(0, 0, 0, 0.794);
+    background: rgba(0, 0, 0, 1);
     border-radius: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -649,7 +652,7 @@ h1 {
     opacity: .3;
 
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     left: 4%;
 
     animation: puntos 9.5s linear infinite;
@@ -720,8 +723,8 @@ h1 {
     width: 3px;
     height: 3px;
     border-radius: 50%;
-    background: rgb(249, 250, 249);
-    opacity: .3;
+    background: rgb(82, 231, 82);
+    opacity: .7;
 
     position: absolute;
     bottom: 0;
@@ -735,8 +738,8 @@ h1 {
     width: 5px;
     height: 5px;
     border-radius: 50%;
-    background: rgb(249, 250, 249);
-    opacity: .3;
+    background: rgb(82, 231, 82);
+    opacity: .6;
 
     position: absolute;
     bottom: 0;
@@ -750,8 +753,8 @@ h1 {
     width: 5px;
     height: 5px;
     border-radius: 50%;
-    background: rgb(249, 250, 249);
-    opacity: .3;
+    background: rgb(82, 231, 82);
+    opacity: .7;
 
     position: absolute;
     bottom: 0;
@@ -765,8 +768,8 @@ h1 {
     width: 3px;
     height: 3px;
     border-radius: 50%;
-    background: rgb(213, 231, 213);
-    opacity: .3;
+    background: rgb(82, 231, 82);
+    opacity: .8;
 
     position: absolute;
     bottom: 0;
@@ -780,8 +783,8 @@ h1 {
     width: 5px;
     height: 5px;
     border-radius: 50%;
-    background: rgb(255, 255, 255);
-    opacity: .3;
+    background: rgb(82, 231, 82);
+    opacity: .6;
 
     position: absolute;
     bottom: 0;
@@ -795,8 +798,8 @@ h1 {
     width: 3px;
     height: 3px;
     border-radius: 50%;
-    background: rgb(249, 250, 249);
-    opacity: .3;
+    background: rgb(82, 231, 82);
+    opacity: .4;
 
     position: absolute;
     bottom: 0;
@@ -810,8 +813,8 @@ h1 {
     width: 7px;
     height: 7px;
     border-radius: 50%;
-    background: rgb(249, 250, 249);
-    opacity: .3;
+    background: rgb(82, 231, 82);
+    opacity: .7;
 
     position: absolute;
     bottom: 0;
@@ -825,8 +828,8 @@ h1 {
     width: 3px;
     height: 3px;
     border-radius: 50%;
-    background: rgb(249, 250, 249);
-    opacity: .3;
+    background: rgb(82, 231, 82);
+    opacity: .5;
 
     position: absolute;
     bottom: 0;
@@ -840,8 +843,8 @@ h1 {
     width: 5px;
     height: 5px;
     border-radius: 50%;
-    background: rgb(249, 250, 249);
-    opacity: .3;
+    background: rgb(82, 231, 82);
+    opacity: .6;
 
     position: absolute;
     bottom: 0;
@@ -855,7 +858,7 @@ h1 {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: rgb(122, 255, 122);
+    background: rgb(82, 231, 82);
     opacity: .6;
 
     position: absolute;
