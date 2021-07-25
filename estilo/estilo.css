@@ -11,7 +11,11 @@ body {
 
 h1 {
     color: rgb(31, 122, 49);
-
+    font-size: 25px;
+    padding-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 h3 {
@@ -21,6 +25,7 @@ h3 {
 }
 
 hr {
+    margin-top: 10px;
     width: 90%;
     margin-left: 5%;
 }
@@ -125,12 +130,13 @@ li a:hover {
 
 .videoyt {
     border-radius: 5px;
+    margin-top: 20px;
 }
 
 .txtvideo {
     color: rgb(31, 122, 49);
     padding-top: 10px;
-    height: 10%;
+    /*height: 10%;*/
 }
 
 .historia {
@@ -138,8 +144,6 @@ li a:hover {
     height: 850px;
     display: inline-flex;
     position: relative;
-    background: rgb(255, 255, 255);
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.418);
     margin-top: 10px;
     border-radius: 5px;
     justify-content: space-between;
@@ -164,19 +168,22 @@ li a:hover {
     text-align: justify;
 }
 
-.sechistoria h1 {
-    text-align: center;
-    padding-top: 40px;
-}
 
-.publicidad1 {
-    position: relative;
+.fondopubli{
+    background: black;
     width: 34%;
     height: 850px;
-    border-radius: 5px;
+    border-radius: 25px;
+}
+.publicidad1 {
+    position: relative;
+    width: 100%;
+    height: 850px;
+    border-radius: 25px;
     background-image: url(../estilo/img/Text-messages-[remix]A.gif);
     background-repeat: no-repeat;
-    border: solid white;
+    border:6px solid black;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.418);
 }
 
 .publicidad1 input[type='submit'] {
@@ -246,15 +253,6 @@ li a:hover {
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.418);
 }
 
-.nosotros h1 {
-    width: 80%;
-    height: 10%;
-    margin: 0px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .imagenboxnosotros {
     width: 80%;
     height: 44%;
@@ -268,12 +266,9 @@ li a:hover {
     height: 95%;
     width: 70%;
     border-radius: 5px;
+    margin-top: 40px;
     background: url(../estilo/img/semilla.jpg);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-repeat: no-repeat;
-
 }
 
 .textonosotros {
@@ -431,7 +426,7 @@ li a:hover {
     text-align: center;
 }
 
-.contacto {
+.contacto1 {
     width: 100%;
     height: 760px;
     display: block;
@@ -440,7 +435,9 @@ li a:hover {
     background: white;
     border-radius: 5px;
     margin-top: 10px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.418);
 }
+
 
 .testimonios {
     width: 100%;
@@ -455,17 +452,7 @@ li a:hover {
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.418);
 }
 
-.testimonailtext {
-    width: 100%;
-    height: 6%;
-    background: rgb(0, 0, 0);
-}
 
-.testimonailtext h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .testimonialbox {
     width: 100%;
@@ -498,11 +485,6 @@ li a:hover {
     margin-top: 5px;
 }
 
-.testimonailtext h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .testimonialbox {
     width: 100%;
@@ -556,12 +538,6 @@ li a:hover {
     margin: 20px;
 }
 
-.testcarddwn h1 {
-    text-align: center;
-    font-size: 25px;
-    margin: 15px;
-    padding: 15px;
-}
 
 .testfoto {
     width: 180px;
@@ -582,7 +558,21 @@ li a:hover {
     margin-top: 10px;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.418);
 }
-
+.msjpublicidad2{
+    width: 20%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.418);
+}
+.msjpublicidad2 p{
+    font-size: 25px;
+    color: white;
+    text-align: left;
+    margin-left: 30px;
+}
 .footer {
     width: 100%;
     height: auto;
@@ -714,33 +704,67 @@ li a:hover {
     width: 100%;
     height: 10%;
     margin-top: 20px;
-    padding-bottom: 20px;
     font-size: 12px;
     text-align: center;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.textpowere{
+    
+    padding-bottom: 20px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.powere{
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.desarrolladores{
+    height: 10%;
+    padding-bottom: 20px;
+    font-size: 13px;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration:none;
+}
+
+.desarrolladores:hover{
+    font-size: 14px;
+    color: green;
+    transition: .3;
+}
+.power{
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 20px;
+}
 /*.puntos1{
     width: 50px;
     height: 50px;
     border-radius: 50%;
 
-    background: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
     opacity: .8;
 
     position: absolute;
     bottom: 0px;
     left: 2%;
 
-    animation: puntos 10s linear infinite;
+    animation: luna 10s linear infinite;
     animation-delay: .3s;
 } 
 .puntos2{
     width: 48px;
     height: 48px;
     border-radius: 50%;
-    background: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
     left:3% ;
 
     position: absolute;
@@ -749,272 +773,6 @@ li a:hover {
     animation: luna 10s linear infinite;
     animation-delay: .3s;
 } 
-.puntos3 {
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background: rgb(213, 231, 213);
-    opacity: .3;
-
-    position: absolute;
-    bottom: 0px;
-    left: 4%;
-
-    animation: puntos 9.5s linear infinite;
-    animation-delay: .1s;
-}
-
-.puntos4 {
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background: rgb(255, 255, 255);
-    opacity: .3;
-
-    position: absolute;
-    bottom: 0;
-    left: 13%;
-
-    animation: puntos 9s linear infinite;
-    animation-delay: .1s;
-}
-
-.puntos5 {
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background: rgb(249, 250, 249);
-    opacity: .3;
-
-    position: absolute;
-    bottom: 0;
-    left: 10%;
-
-    animation: puntos 9.5s linear infinite;
-    animation-delay: .5s;
-}
-
-.puntos6 {
-    width: 3px;
-    height: 3px;
-    border-radius: 50%;
-    background: rgb(249, 250, 249);
-    opacity: .3;
-
-    position: absolute;
-    bottom: 0;
-    left: 5%;
-
-    animation: puntos 10s linear infinite;
-    animation-delay: 0s;
-}
-
-.puntos7 {
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background: rgb(249, 250, 249);
-    opacity: .3;
-
-    position: absolute;
-    bottom: 0;
-    left: 7%;
-
-    animation: puntos 10s linear infinite;
-    animation-delay: .0s;
-}
-
-.puntos8 {
-    width: 3px;
-    height: 3px;
-    border-radius: 50%;
-    background: rgb(82, 231, 82);
-    opacity: .7;
-
-    position: absolute;
-    bottom: 0;
-    left: 9%;
-
-    animation: puntos 9.5s linear infinite;
-    animation-delay: .6s;
-}
-
-.puntos9 {
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background: rgb(82, 231, 82);
-    opacity: .6;
-
-    position: absolute;
-    bottom: 0;
-    left: 11%;
-
-    animation: puntos 8.5s linear infinite;
-    animation-delay: .9s;
-}
-
-.puntos10 {
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background: rgb(82, 231, 82);
-    opacity: .7;
-
-    position: absolute;
-    bottom: 0;
-    left: 12%;
-
-    animation: puntos 12s linear infinite;
-    animation-delay: 1.8s;
-}
-
-.puntos13 {
-    width: 3px;
-    height: 3px;
-    border-radius: 50%;
-    background: rgb(82, 231, 82);
-    opacity: .8;
-
-    position: absolute;
-    bottom: 0;
-    left: 4%;
-
-    animation: puntos 9.5s linear infinite;
-    animation-delay: 2.2s;
-}
-
-.puntos14 {
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background: rgb(82, 231, 82);
-    opacity: .6;
-
-    position: absolute;
-    bottom: 0;
-    left: 13%;
-
-    animation: puntos 11s linear infinite;
-    animation-delay: 2.3s;
-}
-
-.puntos15 {
-    width: 3px;
-    height: 3px;
-    border-radius: 50%;
-    background: rgb(82, 231, 82);
-    opacity: .4;
-
-    position: absolute;
-    bottom: 0;
-    left: 10%;
-
-    animation: puntos 8s linear infinite;
-    animation-delay: 1.5s;
-}
-
-.puntos16 {
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
-    background: rgb(82, 231, 82);
-    opacity: .7;
-
-    position: absolute;
-    bottom: 0;
-    left: 5%;
-
-    animation: puntos 10s linear infinite;
-    animation-delay: 1.5s;
-}
-
-.puntos17 {
-    width: 3px;
-    height: 3px;
-    border-radius: 50%;
-    background: rgb(82, 231, 82);
-    opacity: .5;
-
-    position: absolute;
-    bottom: 0;
-    left: 7%;
-
-    animation: puntos 8s linear infinite;
-    animation-delay: 1.8s;
-}
-
-.puntos18 {
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background: rgb(82, 231, 82);
-    opacity: .6;
-
-    position: absolute;
-    bottom: 0;
-    left: 9%;
-
-    animation: puntos 8.5s linear infinite;
-    animation-delay: 2.6s;
-}
-
-.puntos19 {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: rgb(82, 231, 82);
-    opacity: .6;
-
-    position: absolute;
-    bottom: 0;
-    left: 11%;
-
-    animation: puntos 7.5s linear infinite;
-    animation-delay: 1.6s;
-}
-
-.puntos20 {
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background: rgb(249, 250, 249);
-    opacity: .3;
-
-    position: absolute;
-    bottom: 0;
-    left: 12%;
-
-    animation: puntos 9s linear infinite;
-    animation-delay: 1s;
-}
-
-@keyframes puntos {
-    0% {
-        bottom: 0;
-        opacity: .2;
-    }
-
-    25% {
-        transform: translateX(40px);
-        opacity: .4;
-    }
-
-    50% {
-        opacity: .5;
-    }
-
-    75% {
-        transform: translateX(20px);
-        opacity: .3;
-    }
-
-    100% {
-        bottom: 100vh;
-        opacity: .0;
-    }
-}
-
 @keyframes luna {
     0% {
         bottom: 0;
