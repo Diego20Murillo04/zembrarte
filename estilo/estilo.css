@@ -739,7 +739,7 @@ li a:hover {
 .desarrolladores:hover{
     font-size: 14px;
     color: green;
-    transition: .3;
+    transition: .3s;
 }
 .power{
     color: white;
