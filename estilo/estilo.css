@@ -113,28 +113,31 @@ li a:hover {
     opacity: .99;
     background-repeat: no-repeat;
     display: flex;
-    justify-content: left;
+    justify-content:center;
     align-items:flex-end;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.418);
     border-radius: 0 0 5px 5px;
 }
 
 .textbanner{
-    width: 20%;
-    height:100%;
-    background: rgba(0, 0,0, 0.589);
-    display:inline-block;
-    align-items: flex-end;
+    width: 30%;
+    height: 22%;
+    margin: 40px 0;
+    border:4px solid white;
+    background: rgba(0, 0, 0, 0.294);
+    box-shadow: inset 0px 2px 25px -49px rgba(255,252,255,1);
+    display:flex;
+    align-items: center;
     justify-content: center;
-    
-    
 }
 
-.textbanner p {
+.brand{
     color: white;
-    font-size: 50px;
-    text-align: left;
-    margin-left: 20px;
+    font-size: 40px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0px 2px 5px 0px rgba(255, 255, 255, 0.849); ;
 }
 
 .video {
@@ -275,8 +278,8 @@ li a:hover {
 }
 
 .imagenboxnosotros {
-    width: 80%;
-    height: 44%;
+    width: 100%;
+    height: 292px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -284,9 +287,10 @@ li a:hover {
 }
 
 .imgnost {
-    height: 95%;
-    width: 70%;
+    height: 100%;
+    width: 40%;
     border-radius: 5px;
+    margin-top: 40px;
     background: url(../estilo/img/semilla.jpg);
     background-repeat: no-repeat;
 }
