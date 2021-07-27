@@ -366,7 +366,7 @@ h4{
     display: flex;
     align-items: center;
     justify-content: right;
-    padding-left: 5px;
+    padding-left: 8px;
 }
 .silver{
     background-image: url(../estilo/img/precio-silver.png);
@@ -566,7 +566,7 @@ h4{
 
 .testimonios {
     width: 100%;
-    height: 550px;
+    height: 600px;
     display: block;
     position: relative;
     justify-content: center;
@@ -663,15 +663,37 @@ h4{
     margin: 20px;
 }
 
+.testimonio1{
+    padding-top: 20px;
+}
 
-.testfoto {
+.testfoto1 {
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    background: url(../estilo/img/viejo.jpg);
+    background: url(../estilo/img/viejo1.png);
     background-repeat: no-repeat;
+    border: 4px solid white;
+    z-index: 1;
 }
-
+.testfoto2 {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: url(../estilo/img/viejo2.png);
+    background-repeat: no-repeat;
+    border: 4px solid white;
+    z-index: 1;
+}
+.testfoto3 {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: url(../estilo/img/viejo3.png);
+    background-repeat: no-repeat;
+    border: 4px solid white;
+    z-index: 1;
+}
 .publicidad2 {
     width: 100%;
     height: 285px;
