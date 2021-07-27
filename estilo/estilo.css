@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    font-size: 16px;
+}
 
 body {
     background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 51%, rgba(237, 237, 237, 1) 100%);
@@ -11,7 +14,7 @@ body {
 
 h1 {
     color: rgb(31, 122, 49);
-    font-size: 25px;
+    font-size: 1.7rem;
     padding-top: 20px;
     text-align: center;
     text-transform: uppercase;
@@ -19,7 +22,7 @@ h1 {
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 1rem;
     text-align: center;
     color: black;
 }
@@ -178,17 +181,15 @@ li a:hover {
     align-items: center;
     text-align: center;
     width: 65%;
-    height: 850px;
+    height: 100%;
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.418);
 }
 
 .sechistoria h3 {
-    margin-top: 60px;
     padding-top: 20px;
-    margin-left: 60px;
-    margin-right: 80px;
+    margin: 0px 40px;
     text-align: justify;
 }
 
@@ -271,7 +272,6 @@ li a:hover {
     width: 33%;
     margin: 20px;
     border-radius: 5px;
-    background: white;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.418);
 }
 .titulocard{
@@ -280,9 +280,11 @@ li a:hover {
     display:flex;
     justify-content: center;
     align-items: center;
+    background:url(../estilo/img/precio-silver.png);
 }
-.titulocard h3{
-    color: white;
+.titulocard h1{
+    color: rgb(253, 252, 252);
+    padding: 0;
 }
 .cards hr{
     margin: 0;
@@ -290,7 +292,25 @@ li a:hover {
 .imagencard{
     width: 100%;
     height: 32%;
-    background: rebeccapurple;
+    background: rgba(0, 0, 0, 0.96);
+}
+h4{
+    font-size: 8rem;
+    text-align: left;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: white;
+    margin-left: 20px;
+}
+.basic{
+    background-image: url(../estilo/img/precio-basico.png);
+}
+.silver{
+    background-image: url(../estilo/img/precio-silver.png);
+}
+.gold{
+    background-image: url(../estilo/img/preciogold.png);
 }
 .textocard{
     width: 100%;
@@ -300,7 +320,8 @@ li a:hover {
 .botoncard{
     width: 100%;
     height: 10%;
-    background: rgb(66, 111, 189);
+    background: rgba(0, 0, 0, 0.96);
+    border-radius: 0 0 5px 5px;
 }
 
 .nosotros {
@@ -320,6 +341,7 @@ li a:hover {
     height: 292px;
     display: inline-flex;
     justify-content: center;
+    border-radius: 5px;
     align-items: center;
     background: rgb(255, 255, 255);
 }
@@ -331,6 +353,7 @@ li a:hover {
     margin-top: 40px;
     background: url(../estilo/img/semilla.jpg);
     background-repeat: no-repeat;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.418);
 }
 
 .textonosotros {
@@ -808,56 +831,3 @@ li a:hover {
     margin-right: 10px;
     padding-bottom: 20px;
 }
-/*.puntos1{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-
-    background: rgb(0, 0, 0);
-    opacity: .8;
-
-    position: absolute;
-    bottom: 0px;
-    left: 2%;
-
-    animation: luna 10s linear infinite;
-    animation-delay: .3s;
-} 
-.puntos2{
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-    background: rgb(255, 255, 255);
-    left:3% ;
-
-    position: absolute;
-    bottom: 0px;
-
-    animation: luna 10s linear infinite;
-    animation-delay: .3s;
-} 
-@keyframes luna {
-    0% {
-        bottom: 0;
-        opacity: 1;
-    }
-
-    25% {
-        transform: translateX(40px);
-        opacity: 1;
-    }
-
-    50% {
-        opacity: 1;
-    }
-
-    75% {
-        transform: translateX(20px);
-        opacity: 1;
-    }
-
-    100% {
-        bottom: 100vh;
-        opacity: 1;
-    }
-}*/
