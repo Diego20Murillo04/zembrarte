@@ -310,7 +310,7 @@ h4{
     font-size: 8rem;
     text-align: left;
     letter-spacing:.1rem;
-    -webkit-background-clip: text;
+    /*-webkit-background-clip: text;*/
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: white;
@@ -588,7 +588,6 @@ h4{
     align-items: center;
     border-radius: 5px;
     background: rgb(255, 255, 255);
-
 }
 
 .testimonialcard {
@@ -936,7 +935,11 @@ h4{
     }
     .nav #btn-menu:checked ~ .menu{
         margin-left: 0;
-        transition: .5s;
+        transition: .4s;
+    }
+    .nav #btn-menu:checked ~ .nombrebanner{
+        left: 9rem;
+        transition: .4s;
     }
 }
 
