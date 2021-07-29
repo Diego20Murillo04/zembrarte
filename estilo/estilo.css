@@ -608,7 +608,7 @@ textarea:placeholder-shown {
     display: flex;
     position: relative;
     justify-content: space-evenly;
-    align-items: center;
+    flex-wrap: wrap;
     border-radius: 5px;
     background: rgb(255, 255, 255);
 }
@@ -620,7 +620,7 @@ textarea:placeholder-shown {
     position: relative;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 10px;
     background: rgb(255, 255, 255);
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.418);
 }
@@ -948,6 +948,17 @@ textarea:placeholder-shown {
 
     .sechistoria {
         width: 100%;
+    }
+}
+
+@media(max-width: 900px){
+    .testimonios{
+        height: 1800px;
+    }
+
+    .testimonialcard{
+        height: 33%;
+        width: 95%;
     }
 }
 
