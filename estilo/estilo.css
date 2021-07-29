@@ -278,7 +278,7 @@ hr {
 
 .cards {
     height: 85%;
-    width: 32%;
+    width: 33%;
     margin: 20px;
     border-radius: 5px;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.418);
@@ -315,7 +315,7 @@ h4 {
     font-size: 8rem;
     text-align: left;
     letter-spacing: .1rem;
-    /*-webkit-background-clip: text;*/
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: white;
@@ -951,12 +951,12 @@ textarea:placeholder-shown {
     }
 }
 
-@media(max-width: 900px){
-    .testimonios{
+@media(max-width: 900px) {
+    .testimonios {
         height: 1600px;
     }
 
-    .testimonialcard{
+    .testimonialcard {
         height: 23%;
         width: 90%;
     }
@@ -1046,7 +1046,7 @@ textarea:placeholder-shown {
         max-height: 25px;
     }
 
-    .publicidad2{
+    .publicidad2 {
         background: url(../estilo/img/ardilla\ m.jpg);
         background-repeat: no-repeat;
         height: 252px;
@@ -1065,35 +1065,35 @@ textarea:placeholder-shown {
     }
 }
 
-@media(max-width: 440px){
-    .menu{
+@media(max-width: 440px) {
+    .menu {
         left: -30%;
     }
 
-    .nav #btn-menu:checked~.menu{
+    .nav #btn-menu:checked~.menu {
         left: 0;
         transition: .4s;
     }
 
-    .banner{
+    .banner {
         background: url(../estilo/img/bannerS.jpg);
         background-repeat: no-repeat;
         height: 380px;
     }
 
-    .textbanner{
+    .textbanner {
         width: 50%;
         height: 26%;
     }
 
-    .brand{
+    .brand {
         font-size: 40px;
         display: block;
         align-items: center;
         justify-content: center;
     }
 
-    .publicidad2{
+    .publicidad2 {
         background: url(../estilo/img/ardilla\ s.jpg);
         background-repeat: no-repeat;
         height: 198px;
