@@ -320,7 +320,6 @@ h4 {
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: white;
-
 }
 
 .numero12 {
@@ -631,6 +630,7 @@ textarea:placeholder-shown {
     height: 8%;
     background: rgb(0, 0, 0);
     margin-top: 5px;
+    border-radius: 5px;
 }
 
 
@@ -678,6 +678,7 @@ textarea:placeholder-shown {
     position: relative;
     justify-content: center;
     background: white;
+    border-radius: 5px;
 }
 
 .boxcarddwn {
