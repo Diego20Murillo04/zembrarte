@@ -490,7 +490,7 @@ h4 {
 
 .contactobox {
     width: 100%;
-    height: 80%;
+    height: 75%;
     display: inline-flex;
     justify-content: space-evenly;
     align-items: center;
@@ -513,7 +513,6 @@ h4 {
 .formulario {
     width: 45%;
     height: auto;
-    display: inline-flex;
     position: relative;
     border-radius: 5px;
     background: rgb(255, 255, 255);
@@ -582,6 +581,7 @@ textarea:placeholder-shown {
 }
 
 .textocontacto {
+    padding: 20px;
     width: 100%;
     justify-content: center;
 }
@@ -1041,6 +1041,7 @@ textarea:placeholder-shown {
     }
 
     .formulario {
+        margin: 0;
         width: 100%;
         height: 45%;
         box-shadow: none;
@@ -1089,7 +1090,7 @@ textarea:placeholder-shown {
 
 @media(max-width: 660px){
     .contacto1{
-        height: 1000px;
+        height: 700px;
     }
 
     .textbanner {
