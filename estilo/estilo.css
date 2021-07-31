@@ -25,7 +25,11 @@ h1 {
     text-transform: uppercase;
     font-weight: 600;
 }
-
+h2{
+    color: rgb(31, 122, 49);
+    padding-top: 20px;
+    font-size: 1.2rem;
+}
 h3 {
     font-size: 1rem;
     text-align: center;
@@ -455,8 +459,9 @@ h4 {
 .textonosotros {
     width: 80%;
     height: 45%;
-    display: inline-flex;
+    display: inline-block;
     align-items: center;
+    justify-content: center;
     color: black;
     background: rgb(255, 255, 255);
 }
@@ -816,7 +821,7 @@ textarea:placeholder-shown {
     width: 50px;
     height: 50px;
     line-height: 50px;
-    background: #0be0f0;
+    background:rgb(0, 172, 238);
     color: #fff;
     border-radius: 50px;
     text-align: center;
@@ -828,7 +833,7 @@ textarea:placeholder-shown {
     width: 50px;
     height: 50px;
     line-height: 50px;
-    background: #DA1487;
+    background: radial-gradient(circle farthest-corner at 32% 106%, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), linear-gradient(135deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
     color: #fff;
     border-radius: 50px;
     text-align: center;
@@ -840,7 +845,7 @@ textarea:placeholder-shown {
     width: 50px;
     height: 50px;
     line-height: 50px;
-    background: #3c70ff;
+    background:rgb(59, 89, 152);
     color: #fff;
     border-radius: 50px;
     text-align: center;
