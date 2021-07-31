@@ -1051,6 +1051,10 @@ textarea:placeholder-shown {
         margin-top: -58px;
     }
 
+    .contact input[type='submit'] {
+        margin-top: 20px;
+    }
+
     .contact label {
         visibility: hidden;
     }
