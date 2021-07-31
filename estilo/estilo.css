@@ -853,7 +853,7 @@ textarea:placeholder-shown {
 }
 
 .twitter:hover {
-    box-shadow: 2px 2px 58px 9px rgb(66, 111, 189);
+    box-shadow: 2px 2px 58px 9px rgb(85, 128, 204);
     transition: 0.5s;
 }
 
@@ -1054,6 +1054,10 @@ textarea:placeholder-shown {
         width: 35%;
         margin-left: 55%;
         margin-top: -58px;
+    }
+
+    .contact input[type='submit'] {
+        margin-top: 20px;
     }
 
     .contact label {
