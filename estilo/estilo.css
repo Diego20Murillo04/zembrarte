@@ -426,7 +426,7 @@ h4 {
 
 .nosotros {
     width: 100%;
-    height: 700px;
+    height: 660px;
     display: block;
     position: relative;
     text-align: center;
@@ -438,7 +438,7 @@ h4 {
 
 .imagenboxnosotros {
     width: 100%;
-    height: 292px;
+    height: 250px;
     display: inline-flex;
     justify-content: center;
     border-radius: 5px;
@@ -448,17 +448,18 @@ h4 {
 
 .imgnost {
     height: 100%;
-    width: 40%;
+    width: 95%;
     border-radius: 5px;
     margin-top: 40px;
-    background: url(../estilo/img/semilla.jpg);
+    background: url(../estilo/img/imgnosotrosL.png);
     background-repeat: no-repeat;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.418);
 }
 
 .textonosotros {
     width: 80%;
-    height: 45%;
+    height: 30%;
+    margin: 40px;
     display: inline-block;
     align-items: center;
     justify-content: center;
@@ -1027,8 +1028,15 @@ textarea:placeholder-shown {
         height: 472px;
     }
 
-    .imagenboxnosotros {
-        display: none;
+    .nosotros {
+        height: auto;
+    }
+
+    .imgnost {
+        background: url(../estilo/img/imgnosotrosM.png);
+        background-repeat: no-repeat;
+        height: 250px;
+        width: 567px;
     }
 
     .textonosotros {
@@ -1149,5 +1157,12 @@ textarea:placeholder-shown {
 
     .msjpublicidad2{
         width: 35%;
+    }
+
+    .imgnost {
+        background: url(../estilo/img/imgnosotrosS.png);
+        background-repeat: no-repeat;
+        width: 343px;
+        height: 250px;
     }
 }
